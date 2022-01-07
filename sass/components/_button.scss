@@ -1,0 +1,37 @@
+/* Hero button */
+.button {
+  width: 200px;
+  height: 50px;
+  border: 0px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  border-radius: 4px;
+
+  color: var(--primary-bgc);
+  background-color: var(--accent-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    background-color: var(--buttom-hover-bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Footer button */
+.footer-section__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__icon {
+  margin-left: 10px;
+  fill: currentColor;
+}

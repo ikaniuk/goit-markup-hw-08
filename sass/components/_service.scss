@@ -1,0 +1,33 @@
+/* Service */
+
+.service-list {
+  display: flex;
+}
+
+.service-card {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.service-card__thumb {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 70px;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.service-card__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-bgc);
+}

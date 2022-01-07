@@ -1,0 +1,83 @@
+/* Footer */
+.footer-section {
+  background-color: var(--secondary-bgc);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-section__box {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+/* Adress */
+.address {
+  color: var(--primary-bgc);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+/* Contacts link */
+.footer-contacts-list__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-contacts-list__link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  text-decoration: none;
+
+  color: var(--footer-link-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-bgc);
+  }
+}
+
+/* Networks section */
+
+.footer-box__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-bgc);
+}
+
+.networks-list__link--grey-bgc {
+  background-color: var(--footer-icon-bgc);
+  color: var(--primary-bgc);
+}
+
+/* Footer form */
+
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-form__label {
+  margin-right: 12px;
+}
+
+.footer-form__input {
+  width: 358px;
+  padding: 15px 16px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  background-color: var(--secondary-bgc);
+  color: var(--footer-link-color);
+}
