@@ -121,13 +121,11 @@ img {
 
 /* HEADER */
 .page-header {
-  /* position: fixed; */
   top: 0px;
   width: 100%;
   background-color: var(--primary-bgc);
   border-bottom: solid 1px;
   border-color: var(--border-header-color);
-  /* z-index: 1; */
 }
 
 .page-header__box,
@@ -140,6 +138,7 @@ img {
 .site-nav {
   display: flex;
   margin-left: 93px;
+  display: none;
 }
 
 .site-nav__item:not(:last-child) {
@@ -182,6 +181,7 @@ img {
 .header-contacts {
   display: flex;
   margin-left: auto;
+  display: none;
 }
 
 .header-contacts__item:not(:last-child) {
