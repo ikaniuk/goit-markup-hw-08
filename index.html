@@ -132,19 +132,38 @@
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="service-list list">
             <li class="service-card">
-              <img src="./images/img.jpg" alt="верстка" width="370" />
+              <picture>
+                <source
+                  srcset="./images/service-img1.jpg 1x, ./images/service-img1-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <img src="./images/service-img1.jpg" alt="верстка" />
+              </picture>
               <div class="service-card__thumb">
                 <p class="service-card__name">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
               </div>
             </li>
             <li class="service-card">
-              <img src="./images/img1.jpg" alt="тестированние" width="370" />
+              <picture>
+                <source
+                  srcset="./images/service-img2.jpg 1x, ./images/service-img2-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <img src="./images/service-img2.jpg" alt="тестированние" />
+              </picture>
               <div class="service-card__thumb">
                 <p class="service-card__name">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
               </div>
             </li>
             <li class="service-card">
-              <img src="./images/img2.jpg" alt="оформление" width="370" />
+              <picture>
+                <source
+                  srcset="./images/service-img3.jpg 1x, ./images/service-img3-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <img src="./images/service-img3.jpg" alt="оформление" />
+              </picture>
+
               <div class="service-card__thumb">
                 <p class="service-card__name">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
               </div>
