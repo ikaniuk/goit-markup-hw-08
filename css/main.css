@@ -86,8 +86,15 @@ img {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .section-title {
@@ -1113,8 +1120,15 @@ img {
 /* Filters */
 .filters-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.filters-list__item {
+  margin-bottom: 15px;
+}
+
+.filters-list__item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
 }
 
 .filters-list__item:not(:last-child) {
